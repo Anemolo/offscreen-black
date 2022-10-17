@@ -4,7 +4,7 @@
   "description": "Dark theme based on offscreen canvas site",
   "version": "0.1.0",
   "scripts": {
-	"start":"nodemon ./generate.js --watch ./generate.js" 
+	"start":"nodemon ./generate.js --watch ./generate.js --watch ./base.js" 
   },
   "engines": {
     "vscode": "^1.72.0"

@@ -65,7 +65,7 @@ module.exports = (palette) => ({
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": palette.white
+				"foreground": palette.strings
 			}
 		},
 		{
@@ -174,6 +174,9 @@ module.exports = (palette) => ({
 				"constant.escape",
 				"keyword.other.unit",
 				"keyword.other",
+				"constant.other.color.rgb-value.hex.css",
+				"punctuation.definition.constant.css",
+				"variable.prop.css"
 				
 			],
 			"settings": {
