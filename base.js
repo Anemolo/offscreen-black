@@ -1,15 +1,15 @@
-module.exports = (theme) => ({
+module.exports = (palette) => ({
 	"name": "offscreen canvas black",
 	"colors": {
-		"editor.background": theme.background,
-		"editor.foreground": theme.white,
+		"editor.background": palette.background,
+		"editor.foreground": palette.white,
 		// "editor.focusedStackFrameHighlightBackground": "#ff0000",
 		"editor.lineHighlightBackground": "#171b2a",
 		// "selection.background": "#ff0000",
 		"editor.selectionBackground": "#1d2438",
 		// "editorUnicodeHighlight.background": "#ff0000",
 		// "banner.background": "#ff0000",
-		"titleBar.activeBackground": theme.background,
+		"titleBar.activeBackground": palette.background,
 		"panel.border": "#1d2234",
 		"editorGroup.border": "#1d2234",
 		// "editorGroup.": "#ff0000",
@@ -21,20 +21,20 @@ module.exports = (theme) => ({
 		"scrollbarSlider.activeBackground": "#171f31aa",
 		"editorOverviewRuler.border": "#1d2234",
 		
-		"activityBarBadge.background": theme.background,
+		"activityBarBadge.background": palette.background,
 		"sideBarTitle.foreground": "#bbbbbb",
-		"sideBar.background": theme.background,
-		"statusBar.background": theme.background,
-		"list.hoverForeground": "#ffffff",
+		"sideBar.background": palette.background,
+		"statusBar.background": palette.background,
+		"list.hoverForeground": palette.white,
 		"list.hoverBackground": "#181928",
 		"list.activeSelectionBackground": "#1e2337",
 		// "list.focusBackground": "#1e2337",
 		// "list.highlightForeground": "#ff0000"
 		// list
 		// 1e2337
-		"gitDecoration.addedResourceForeground": theme.functions,
-		"gitDecoration.modifiedResourceForeground": theme.keywords,
-		"gitDecoration.untrackedResourceForeground": theme.numbers,
+		"gitDecoration.addedResourceForeground": palette.functions,
+		"gitDecoration.modifiedResourceForeground": palette.keywords,
+		"gitDecoration.untrackedResourceForeground": palette.numbers,
 		// "redish": "#ff0000"
 	},
 	"tokenColors": [
@@ -46,7 +46,7 @@ module.exports = (theme) => ({
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": theme.comments
+				"foreground": palette.comments
 			}
 		},
 		{
@@ -56,7 +56,7 @@ module.exports = (theme) => ({
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": theme.white
+				"foreground": palette.white
 			}
 		},
 		{
@@ -65,7 +65,7 @@ module.exports = (theme) => ({
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": palette.white
 			}
 		},
 		{
@@ -91,7 +91,7 @@ module.exports = (theme) => ({
 
 			],
 			"settings": {
-				"foreground": theme.keywords
+				"foreground": palette.keywords
 			}
 		},
 		{
@@ -110,7 +110,7 @@ module.exports = (theme) => ({
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#999999"
+				"foreground": palette.punctuation
 			}
 		},
 		{
@@ -134,7 +134,7 @@ module.exports = (theme) => ({
 				"keyword.other.special-method",
 			],
 			"settings": {
-				"foreground": theme.functions
+				"foreground": palette.functions
 			}
 		},
 		{
@@ -143,7 +143,7 @@ module.exports = (theme) => ({
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": palette.white
 			}
 		},
 		{
@@ -162,7 +162,7 @@ module.exports = (theme) => ({
 				"support.constant",
 			],
 			"settings": {
-				"foreground": "#ffffff"  
+				"foreground": palette.white  
 			}
 		},
 		{
@@ -177,7 +177,7 @@ module.exports = (theme) => ({
 				
 			],
 			"settings": {
-				"foreground": theme.numbers  
+				"foreground": palette.numbers  
 			}
 		},
 		{
@@ -192,7 +192,7 @@ module.exports = (theme) => ({
 				"meta.preprocessor.glsl"
 			],
 			"settings": {
-				"foreground": theme.strings
+				"foreground": palette.strings
 			}
 		},
 		{
@@ -209,7 +209,7 @@ module.exports = (theme) => ({
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": palette.white
 			}
 		},
 		{
@@ -232,7 +232,7 @@ module.exports = (theme) => ({
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": theme.keywords
+				"foreground": palette.keywords
 			}
 		},
 		{
@@ -282,7 +282,7 @@ module.exports = (theme) => ({
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": theme.strings
+				"foreground": palette.strings
 			}
 		},
 		{
@@ -479,7 +479,7 @@ module.exports = (theme) => ({
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": theme.white
+				"foreground": palette.white
 			}
 		},
 		{
@@ -637,7 +637,7 @@ module.exports = (theme) => ({
 				"punctuation.section.class.end"
 			],
 			"settings": {
-				"foreground": theme.white
+				"foreground": palette.white
 			}
 		},
 		{
@@ -665,7 +665,7 @@ module.exports = (theme) => ({
 				"markup.table"
 			],
 			"settings": {
-				"foreground": theme.white
+				"foreground": palette.white
 			}
 		}
 	]
