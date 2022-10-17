@@ -160,6 +160,7 @@ module.exports = (palette) => ({
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
 				"support.constant",
+				"variable.prop.css"
 			],
 			"settings": {
 				"foreground": palette.white  
@@ -176,7 +177,6 @@ module.exports = (palette) => ({
 				"keyword.other",
 				"constant.other.color.rgb-value.hex.css",
 				"punctuation.definition.constant.css",
-				"variable.prop.css"
 				
 			],
 			"settings": {
