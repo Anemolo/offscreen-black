@@ -1,0 +1,21 @@
+{
+  "name": "offscreen-canvas-black",
+  "displayName": "Offscreen Canvas Black ",
+  "description": "Dark theme based on offscreen canvas site",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "offscreen canvas black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/offscreen canvas black-color-theme.json"
+      }
+    ]
+  }
+}
