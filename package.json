@@ -1,8 +1,8 @@
 {
-  "name": "offscreen-canvas-black",
+  "name": "offscreen-black",
   "displayName": "Offscreen Canvas Black ",
-  "description": "Dark theme based on offscreen canvas site",
-  "version": "0.1.0",
+  "description": "Theme for the black palette in offscreencanvas.com",
+  "version": "0.2.0",
   "scripts": {
 	"start":"nodemon ./generate.js --watch ./generate.js --watch ./base.js" 
   },
@@ -15,7 +15,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "offscreen canvas black",
+        "label": "Offscreen Black",
         "uiTheme": "vs-dark",
         "path": "./themes/offscreen-canvas-black-color-theme.json"
       }
