@@ -1,16 +1,27 @@
-# offscreen-canvas-black README
+# Offscreen Black
 
-## Working with Markdown
+A Visual Studio Code theme for creative developers. Made for the black color palette in [offscreencanvas.com](https://offscreencanvas.com/). Heavily inspired by my previous theme: [Sarah Drasner's Night owl](https://github.com/sdras/night-owl-vscode-theme).
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+# Instalation 
+1. Install Visual Studio Code.
+2. Open the Extensions menu.
+3. Search and install Offscreen Black
+4. Reload vscode
+5. Code > Preferences > Color Theme > Night Owl
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Javascript
+![Offscreen Black for Javascript](./theme-javascript.png)
+## GLSL
+![Offscreen Black for GLSL](./theme-glsl.png)
 
-## For more information
+# Other Offscreen Palettes
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- Pink -> Coming Soon
+- Blue -> Coming Soon
+- Aquamarine -> Coming Soon
+- Dark Blue -> Coming Soon
+- Grey -> Coming Soon
+- White -> Coming Soon
+- Orange -> Coming Soon
 
-**Enjoy!**
+

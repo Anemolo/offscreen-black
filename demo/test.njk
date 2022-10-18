@@ -1,0 +1,91 @@
+---
+metaImage: cover
+---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include 'head.njk' %}
+    </head>
+<body>
+<script>
+  {{ 'initialPalette.js' | esbuild | safe  }}
+</script>
+
+{%- imageWithName metaImage + '.png' -%}
+{# <div style="display: none;" id="fd-form-620cc721e0eda1a0d870af34"></div>
+<script>
+  window.fd('form', {
+    formId: '620cc721e0eda1a0d870af34',
+    containerEl: '#fd-form-620cc721e0eda1a0d870af34'
+  });
+</script> #}
+        <div id="cursor">
+            <svg height="200" width="200">
+                <g id="cursor-wrapper--small">
+                    <circle id="cursor--small" cx="100" cy="100" r="10" stroke-width="2"></circle>
+                </g>
+                <circle id="cursor--big" cx="100" cy="100" r="10" stroke-width="0"></circle>
+            </svg>
+        </div>
+        <div id="root">
+            <div id='app-wrapper'>
+                <canvas id="app-canvas"></canvas>
+            </div>
+            {% include 'header.njk' %}
+            <main data-taxi>
+                {{ content | safe }}
+            </main>
+            <div class="palette-list palette-list--left">
+                <button class="palette-item" data-palette="0" style="background-color: #1d1c1d"></button>
+                <button class="palette-item" data-palette="1" style="background-color: #db7676"></button>
+                <button class="palette-item" data-palette="2" style="background-color: #7fb9bc"></button>
+                <button class="palette-item" data-palette="3" style="background-color: #5963fa"></button>
+            </div>
+            <div class="palette-list palette-list--right">
+                <button class="palette-item" data-palette="4" style="background-color: #446091"></button>
+                <button class="palette-item" data-palette="5" style="background-color: #ebebeb"></button>
+                <button class="palette-item" data-palette="6" style="background-color: #ffffff"></button>
+                <button class="palette-item" data-palette="7" style="background-color: #F04924"></button>
+            </div>
+			<div class="mobileMenu">
+				<div class="mobileMenu-inner">
+					<ul class="mobileMenu-links">
+						<a class="mobileMenu-link" href="/issues"><li >Issues</li></a>
+						<a class="mobileMenu-link" href="/renders/001"><li >Renders</li></a>
+						<a class="mobileMenu-link" href="/about"><li >About</li></a>
+					</ul>
+					<div class="mobileMenu-social">
+						<a class="nav-link" href="https://twitter.com/Anemolito">Twitter</a>
+					</div>
+				</div>
+			</div>
+        </div>
+		<div id="transitionWrapper">
+		</div>
+        {# <div class="pointer-events-none js-scroll-proxy"></div> #}
+    	{# <script src="/initialPalette.js"></script> #}
+		
+{% if env.env == 'dev'%}
+<div class="screenshotUI">
+			<h6 class="screenshotUI-logo logo">offscreencanvas.com</h6>
+	<h3 class="screenshotUI-title render-title">Webgl</h3>
+
+			</div>
+
+				<div class='screenshot-test'>
+		<div class="screenshot-cell"><img/></div>
+		<div class="screenshot-cell"><img/></div>
+		<div class="screenshot-cell"><img/></div>
+		<div class="screenshot-cell"><img/></div>
+		
+		<div class="screenshot-cell"><img/></div>
+		<div class="screenshot-cell"><img/></div>
+		<div class="screenshot-cell"><img/></div>
+		<div class="screenshot-cell"><img/></div>
+
+	</div>
+		<script src="/development.js"></script>
+{% endif %}
+    	<script src="/index.js"></script>
+    </body>
+</html>

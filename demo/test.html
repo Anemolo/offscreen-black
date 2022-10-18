@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body class="dark">
+	<!--  class="dark" -->
+    <div class="page-root">
+      <div class="container" id="container">
+        <canvas id="app-canvas"></canvas>
+      </div>
+      <a id="download"></a>
+    </div>
+    <div class="info">
+		<button id="toggleBG" class="info-toggleBG">Toggle bg</button>
+		<p><%= htmlWebpackPlugin.options.date %></p></div>
+    <div class="pager">
+      <div class="pager-current"><%= htmlWebpackPlugin.options.index %></div>
+      <div class="pager-buttons">
+        <a class="pager-prev" href="<%= htmlWebpackPlugin.options.prev %>.html"
+          >Prev
+        </a>
+        <a class="pager-next" href="<%= htmlWebpackPlugin.options.next %>.html"
+          >Next
+        </a>
+      </div>
+    </div>
+    <script></script>
+  </body>
+</html>
