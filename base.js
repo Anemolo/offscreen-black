@@ -18,7 +18,7 @@ module.exports = (palette) => ({
 		"scrollbar.shadow": "#0b0d14",
 		"scrollbarSlider.background": "#25304680",
 		"scrollbarSlider.hoverBackground": "#2d3d5d80",
-		"scrollbarSlider.activeBackground": "#171f31aa",
+		"scrollbarSlider.activeBackground": palette.lightBackground+ "aa",
 		"editorOverviewRuler.border": "#1d2234",
 		
 		"activityBarBadge.background": palette.background,
@@ -28,6 +28,7 @@ module.exports = (palette) => ({
 		"list.hoverForeground": palette.white,
 		"list.hoverBackground": "#181928",
 		"list.activeSelectionBackground": "#1e2337",
+		// "s": '#000000',
 		// "list.focusBackground": "#1e2337",
 		// "list.highlightForeground": "#ff0000"
 		// list
@@ -36,6 +37,9 @@ module.exports = (palette) => ({
 		"gitDecoration.modifiedResourceForeground": palette.keywords,
 		"gitDecoration.untrackedResourceForeground": palette.numbers,
 		// "redish": "#ff0000"
+	"input.foreground": palette.white,
+	"input.background": palette.darkBackground,
+	"editorWidget.background": palette.lightBackground
 	},
 	"tokenColors": [
 		{
