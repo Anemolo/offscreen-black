@@ -6,6 +6,7 @@ let palette = {
 	background: '#151522',
 	lightBackground: "#171f31",
 	darkBackground: "#110f1c",
+	highlight: "#202b41",
 	white: '#ffffff',
 	keywords: "#0596d4",
 	functions: "#7377e8",

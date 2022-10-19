@@ -3,16 +3,11 @@ module.exports = (palette) => ({
 	"colors": {
 		"editor.background": palette.background,
 		"editor.foreground": palette.white,
-		// "editor.focusedStackFrameHighlightBackground": "#ff0000",
 		"editor.lineHighlightBackground": "#171b2a",
-		// "selection.background": "#ff0000",
-		"editor.selectionBackground": "#1d2438",
-		// "editorUnicodeHighlight.background": "#ff0000",
-		// "banner.background": "#ff0000",
+		"editor.selectionBackground": palette.highlight,
 		"titleBar.activeBackground": palette.background,
 		"panel.border": "#1d2234",
 		"editorGroup.border": "#1d2234",
-		// "editorGroup.": "#ff0000",
 		"focusBorder": "#253046",
 
 		"scrollbar.shadow": "#0b0d14",
@@ -20,7 +15,10 @@ module.exports = (palette) => ({
 		"scrollbarSlider.hoverBackground": "#2d3d5d80",
 		"scrollbarSlider.activeBackground": palette.lightBackground+ "aa",
 		"editorOverviewRuler.border": "#1d2234",
+
+		"editor.findMatchHighlightBackground": palette.numbers+'50',
 		
+
 		"activityBarBadge.background": palette.background,
 		"sideBarTitle.foreground": "#bbbbbb",
 		"sideBar.background": palette.background,
