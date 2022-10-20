@@ -1,6 +1,6 @@
 {
   "name": "offscreen-black",
-  "displayName": "Offscreen Canvas Black ",
+  "displayName": "Offscreen Canvas Black",
   "description": "Theme for the black palette in offscreencanvas.com",
   "version": "1.0.0",
   "publisher": "anemolito",
@@ -19,7 +19,7 @@
 	"start":"nodemon ./generate.js --watch ./generate.js --watch ./base.js" 
   },
   "engines": {
-    "vscode": "^1.72.0"
+    "vscode": "^1.51.0"
   },
   "categories": [
     "Themes"
