@@ -2,8 +2,20 @@
   "name": "offscreen-black",
   "displayName": "Offscreen Canvas Black ",
   "description": "Theme for the black palette in offscreencanvas.com",
-  "version": "0.2.0",
+  "version": "1.0.0",
+  "publisher": "anemolito",
+  "repository": { 
+	"type": "git", 
+	"url": "https://github.com/Anemolo/offscreen-black.git" 
+}, 
+  "keywords": [
+	"theme",
+	"Offscreen Canvas",
+	"Offscreen Black"
+  ],
+  "icon": "icon.png",
   "scripts": {
+	"publish": "vsce publish",
 	"start":"nodemon ./generate.js --watch ./generate.js --watch ./base.js" 
   },
   "engines": {
