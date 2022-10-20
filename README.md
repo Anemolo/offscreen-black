@@ -1,4 +1,11 @@
-# Offscreen Black
+<h1 align="center">
+  <br>
+    <!-- <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/logo.png" alt="logo" width="200"> -->
+  <br><br>
+  Material Icon Theme
+  <br>
+  <br>
+</h1>
 
 A Visual Studio Code theme for creative developers. Made for the black color palette in [offscreencanvas.com](https://offscreencanvas.com/). Heavily inspired by my previous theme: [Sarah Drasner's Night owl](https://github.com/sdras/night-owl-vscode-theme).
 
@@ -10,8 +17,10 @@ A Visual Studio Code theme for creative developers. Made for the black color pal
 5. Code > Preferences > Color Theme > Night Owl
 
 ## Javascript
+---
 ![Offscreen Black for Javascript](./theme-javascript.png)
 ## GLSL
+---
 ![Offscreen Black for GLSL](./theme-glsl.png)
 
 # Other Offscreen Palettes
