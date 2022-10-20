@@ -20,4 +20,3 @@ let result = generateTheme(palette)
 let inJson = JSON.stringify(result);
 
 fs.writeFileSync('./themes/offscreen-canvas-black-color-theme.json', inJson)
-
