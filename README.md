@@ -1,6 +1,7 @@
 <h1 align="center">
   <br>
     <img src="https://raw.githubusercontent.com/Anemolo/offscreen-black/main/logo.png?token=GHSAT0AAAAAABZB3CN2IYOJOWW4SDD4LCOYY2Q2G3Q" alt="logo" width="200">
+  <br>
   Offscreen Black
   <br>
 </h1>
